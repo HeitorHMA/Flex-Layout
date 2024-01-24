@@ -1,3 +1,55 @@
-body{
+.body{ 
     height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    flex: 1,1,auto;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.aboutstr{
+    flex: 1,1,auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.profileset{
+    flex: 1,1,auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.advbus{
+    flex: 1,1,auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.privaterms{
+    flex: 1,1,auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
 }
