@@ -1,3 +1,5 @@
+html{height: 100vh;
+overflow: hidden;}
 .body{ 
     height: 100vh;
     align-items: center;
@@ -19,9 +21,11 @@ a{
     color: black;
 }
 .header{
+    flex: 1,1,auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    padding: 8px;
 }
 .aboutstr{
     flex: 1,1,auto;
@@ -36,10 +40,14 @@ a{
     gap: 8px;
 }
 .footer{
+    flex: 1,1,auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 8px;
+    padding: 10px;
+    background-color: #eeee;
+    bottom: 0;
 }
 .advbus{
     flex: 1,1,auto;
@@ -52,4 +60,50 @@ a{
     display: flex;
     justify-content: space-between;
     gap: 8px;
+}
+.main{
+    flex: 1,1,auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-direction: column;
+}
+.srcbut{
+    flex: 1,1,auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    flex-direction: column;
+    gap: 16px;
+}
+.searchbar{
+    flex: 1,1,auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+input{
+    flex: 1,1,auto;
+    width: 450px;
+    border-radius: 25px;
+}
+.img{
+    flex: 1,1,auto;
+    width: 596px;
+    height: 223px;
+
+}
+img{
+    flex: 1,1,auto;
+    width: 596px;
+    height: 223px;
+}
+button{
+    flex: 1,1,auto;
+    font-weight: 700;
+    border-radius:5px;
+    border-color: #eeee;
+    padding: 5px;
+    border: none;
 }
